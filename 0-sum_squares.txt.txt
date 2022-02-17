@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+int N, count = 1, sum = 0;
+prinf("Enter the limit\n");
+scanf("%d",&N)
+while(count <= N)
+{
+sum = sum + (count * count);
+count++;
+}
+printf("sum of the numbers for 1 to %d is %d\n", N, sum);
+return 0;
+}
